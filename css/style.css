@@ -180,7 +180,7 @@ header nav {
     position: relative;
     height: 80vh;
     min-height: 500px;
-    background: url('https://images.pexels.com/photos/27882256/pexels-photo-27882256.jpeg?auto=compress&cs=tinysrgb&w=1600') center/cover no-repeat;
+    background: url('https://images.pexels.com/photos/247431/pexels-photo-247431.jpeg?auto=compress&cs=tinysrgb&w=1600') center/cover no-repeat;
     display: flex;
     align-items: center;
     color: var(--white);
@@ -320,7 +320,7 @@ header nav {
 
 /* Booking Section */
 .booking-section {
-    background: linear-gradient(rgba(45, 80, 22, 0.9), rgba(45, 80, 22, 0.9)), url('https://images.pexels.com/photos/2592392/pexels-photo-2592392.jpeg?auto=compress&cs=tinysrgb&w=1600') center/cover no-repeat;
+    background: linear-gradient(rgba(45, 80, 22, 0.9), rgba(45, 80, 22, 0.9)), url('https://images.pexels.com/photos/1330215/pexels-photo-1330215.jpeg?auto=compress&cs=tinysrgb&w=1600') center/cover no-repeat;
 }
 
 .booking-grid {

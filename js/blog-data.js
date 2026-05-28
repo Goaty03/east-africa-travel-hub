@@ -4,7 +4,7 @@ export const blogPosts = [
     title: "10 Essential Tips for Your First Serengeti Safari",
     date: "May 15, 2026",
     excerpt: "Planning your first safari can be overwhelming. From what to pack to the best time to see the Great Migration, we've got you covered.",
-    image: "https://images.pexels.com/photos/2592392/pexels-photo-2592392.jpeg?auto=compress&cs=tinysrgb&w=800",
+    image: "https://images.pexels.com/photos/247431/pexels-photo-247431.jpeg?auto=compress&cs=tinysrgb&w=800",
     url: "#contact"
   },
   {
@@ -20,7 +20,7 @@ export const blogPosts = [
     title: "Climbing Kilimanjaro: What You Need to Know",
     date: "June 20, 2026",
     excerpt: "Standing at the roof of Africa is a life-changing experience. Learn about the different routes and how to prepare for the trek.",
-    image: "https://images.pexels.com/photos/21223716/pexels-photo-21223716.jpeg?auto=compress&cs=tinysrgb&w=800",
+    image: "https://images.pexels.com/photos/1209331/pexels-photo-1209331.jpeg?auto=compress&cs=tinysrgb&w=800",
     url: "#contact"
   }
 ];
