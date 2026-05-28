@@ -69,6 +69,26 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // Contact Form Handler
+    const contactForm = document.getElementById('contact-form');
+    const contactMessage = document.getElementById('contact-message');
+
+    if (contactForm) {
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            
+            // Simulate sending
+            contactMessage.textContent = 'Sending your message...';
+            contactMessage.style.color = 'var(--primary)';
+            
+            setTimeout(() => {
+                contactMessage.textContent = 'Thanks for reaching out! We\'ll get back to you within 24 hours.';
+                contactMessage.style.color = '#27ae60';
+                contactForm.reset();
+            }, 1500);
+        });
+    }
+
     // Smooth scroll for nav links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {

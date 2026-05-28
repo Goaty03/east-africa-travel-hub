@@ -483,6 +483,56 @@ header nav {
     box-shadow: 0 15px 30px rgba(0,0,0,0.15);
 }
 
+/* Contact Form */
+.contact-section {
+    background-color: var(--light);
+}
+
+.contact-form {
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form-row {
+    display: flex;
+    gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: var(--secondary);
+}
+
+.contact-form .btn {
+    align-self: flex-start;
+}
+
+.contact-message {
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+@media (max-width: 480px) {
+    .contact-form-row {
+        flex-direction: column;
+    }
+}
+
 /* Animations */
 .animate-on-scroll {
     opacity: 0;
