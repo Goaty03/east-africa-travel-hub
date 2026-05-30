@@ -1,0 +1,21 @@
+{
+  "name": "East Africa Travel Hub",
+  "short_name": "EATHub",
+  "description": "Tanzania safaris, Zanzibar beaches & East Africa travel guides",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#F5E6CC",
+  "theme_color": "#2D5016",
+  "icons": [
+    {
+      "src": "./icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
