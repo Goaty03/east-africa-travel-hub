@@ -9,8 +9,12 @@
     <meta property="og:description" content="Plan your dream East African safari with our expert guides and curated recommendations.">
     <meta property="og:image" content="https://images.pexels.com/photos/2592392/pexels-photo-2592392.jpeg?auto=compress&cs=tinysrgb&w=1200">
     <meta name="twitter:card" content="summary_large_image">
-    <link rel="manifest" href="./manifest.json">
+    <link rel="manifest" href="/east-africa-travel-hub/manifest.json">
     <meta name="theme-color" content="#2D5016">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="EATravelHub">
+    <link rel="apple-touch-icon" href="/east-africa-travel-hub/icons/icon-192x192.png">
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -255,6 +259,13 @@
         </div>
     </footer>
 
+    <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/east-africa-travel-hub/sw.js');
+      });
+    }
+    </script>
     <script type="module" src="./js/main.js"></script>
 </body>
 </html>

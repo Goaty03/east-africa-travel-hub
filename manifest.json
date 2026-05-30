@@ -1,0 +1,23 @@
+{
+  "name": "East Africa Travel Hub",
+  "short_name": "EATravelHub",
+  "description": "Tanzania safaris, Zanzibar beaches & East Africa travel guides",
+  "start_url": "/east-africa-travel-hub/",
+  "scope": "/east-africa-travel-hub/",
+  "display": "standalone",
+  "background_color": "#F5E6CC",
+  "theme_color": "#2D5016",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/east-africa-travel-hub/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/east-africa-travel-hub/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

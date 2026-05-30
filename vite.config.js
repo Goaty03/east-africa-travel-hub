@@ -1,8 +1,9 @@
 import { defineConfig } from 'vite';
-import { resolve } from 'path';
+import { copyFileSync, mkdirSync, existsSync, readdirSync } from 'fs';
+import { join } from 'path';
 
 export default defineConfig({
-  base: './',
+  base: '/east-africa-travel-hub/',
   server: {
     host: '0.0.0.0',
     port: 3000,
@@ -10,9 +11,9 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: {
-        main: resolve(__dirname, 'index.html'),
-        privacy: resolve(__dirname, 'privacy-policy.html'),
-        affiliate: resolve(__dirname, 'affiliate-disclosure.html'),
+        main: 'index.html',
+        privacy: 'privacy-policy.html',
+        affiliate: 'affiliate-disclosure.html',
       },
     },
   },
